@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: tomato;
+    font-family: sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+.contenitor{
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 500px;
+    margin: 20px auto;
+    background-color: thistle;
+}
+
+.box{
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+}
+
+.warm{
+    background-color: teal;
+}
