@@ -14,6 +14,11 @@ h1{
     text-align: center;
 }
 
+h2,
+h3{
+    text-align: center;
+}
+
 .contenitor{
     display: flex;
     flex-wrap: wrap;
@@ -31,4 +36,12 @@ h1{
 
 .warm{
     background-color: teal;
+}
+
+.flower{
+    background-color: yellow;
+}
+
+.flower.warm{
+    background-color: black;
 }
